@@ -1,0 +1,13 @@
+pip3 install matplotlib
+pip3 install pandas
+pip3 install numpy
+pip3 install seaborn
+pip3 install -U scikit-learn
+
+
+
+conda install -c conda-forge matplotlib
+conda install -c anaconda pandas 
+conda install scikit-learn
+conda install -c anaconda numpy
+conda install -c anaconda seaborn
