@@ -124,6 +124,7 @@ def kmodes(df,k=2,threshold=1,iterations=10, verbose = True, n_clusterings = 5):
     dic_distances = dic_results[idx_max]["dic_distances"]
     array_a = dic_results[idx_max]["array_a"]
     array_b = dic_results[idx_max]["array_b"]
+    metric = dic_results[idx_max]["performance"]
     
     clustering_df = pd.DataFrame.from_dict(dic_distances,orient="index")
     clustering_df.drop(['distance_to_a',"distance_to_b"], axis=1, inplace = True) 
@@ -133,5 +134,5 @@ def kmodes(df,k=2,threshold=1,iterations=10, verbose = True, n_clusterings = 5):
     cluster_b_caracterisation = stats_value_cluster_b / (df.sum(axis = 0) / len(df))
     clusters_caracterisation = pd.concat([cluster_a_caracterisation,cluster_b_caracterisation],axis = 1)
     
-    return clustering_df,clusters_caracterisation
+    return clustering_df,clusters_caracterisation,metric
     
