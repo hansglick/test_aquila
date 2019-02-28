@@ -1,7 +1,7 @@
 # Test Technique Aquila
 
 ### Remarques
-Le repo contient mes réponses au test Aquila. Je me suis servi des librairies suivantes pour les calculs : _pandas, numpy, scikit-learn_. Ayant quelques heures à tuer, **j'ai décidé d'implémenter une version du Kmodes clustering algorithm** afin de répondre à la question 8. J'importe le module contenant l'implémentation à la cellule 22. Le repo de cette implémentation se trouve à l'adresse suivante https://github.com/hansglick/kmodes :
+Le repo contient mes réponses au test Aquila. Je me suis servi des librairies suivantes pour les calculs : _pandas, numpy, scikit-learn_. Ayant quelques heures à tuer, **j'ai décidé d'implémenter une version du Kmodes clustering algorithm** afin de répondre à la question 8. Le module se trouve fun/fun.py. Il est importé à la cellule 22 du notebook. Le repo de cette implémentation se trouve à l'adresse suivante https://github.com/hansglick/kmodes :
  * fun.py : contient les fonctions de l'implémentation
  * test_kmodes_function.ipynb : un notebook qui teste l'implémentation sur des données simulées
 
