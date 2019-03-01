@@ -3,6 +3,9 @@
 ### Solution au test
 https://github.com/hansglick/test_aquila/blob/master/notebooks/Test_Technique_ML.ipynb
 
+### PEP8
+Je n'ai pas réussi à installer convenablement un plugin de contrôle de format PEP8. En revanche, je me suis efforcé de garder le code lisible autant que possible. 
+
 ### Remarques
 Le repo contient mes réponses au test Aquila. Je me suis servi des librairies suivantes pour les calculs : _pandas, numpy, scikit-learn_. Ayant quelques heures à tuer, **j'ai décidé d'implémenter une version du Kmodes clustering algorithm** afin de répondre à la question 8. Le module de l'implémentation est ici [fun/kmodes.py](https://github.com/hansglick/test_aquila/blob/master/fun/kmodes.py) . Il est importé à la cellule 22 du notebook. Le repo de cette implémentation se trouve à l'adresse suivante https://github.com/hansglick/kmodes :
  * fun.py : contient les fonctions de l'implémentation
@@ -13,8 +16,7 @@ Le repo contient mes réponses au test Aquila. Je me suis servi des librairies s
 * Test Aquila : 2 heures 
 
 
-### PEP8
-Je n'ai pas réussi à installer convenablement un plugin de contrôle de format PEP8. En revanche, je me suis efforcé de garder le code lisible autant que possible. 
+
 
 
 ### Instructions
