@@ -1,6 +1,6 @@
 # Aquila test
 
-### Le test Aquila
+### Solution au test
 https://github.com/hansglick/test_aquila/blob/master/notebooks/Test_Technique_ML.ipynb
 
 ### Remarques
