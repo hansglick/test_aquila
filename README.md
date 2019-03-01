@@ -13,6 +13,10 @@ Le repo contient mes réponses au test Aquila. Je me suis servi des librairies s
 * Test Aquila : 2 heures 
 
 
+### PEP8
+Je n'ai pas réussi à installer convenablement un plugin de contrôle de format PEP8. En revanche, je me suis efforcé de garder le code lisible autant que possible. 
+
+
 ### Instructions
  * Cloner le repo : `git clone https://github.com/hansglick/test_aquila.git`
  * Afin de reproduire l'environnement dans conda : `conda env create -f env/environment.yml`
